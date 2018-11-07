@@ -2,10 +2,10 @@
 
 const options = {
     hosts: {
-        domain: 'jitsi.hopto.org',
-        muc: 'jitsi.hopto.org' // FIXME: use XEP-0030
+        domain: 'dev-sip-jitsi.synzi.com',
+        muc: 'dev-sip-jitsi.synzi.com' // FIXME: use XEP-0030
     },
-    bosh: '//jitsi.hopto.org/http-bind', // FIXME: use xep-0156 for that
+    bosh: '//dev-sip-jitsi.synzi.com/http-bind', // FIXME: use xep-0156 for that
 
     // The name of client node advertised in XEP-0115 'c' stanza
     clientNode: 'http://jitsi.org/jitsimeet'
